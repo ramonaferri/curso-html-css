@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+. {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(122, 40, 40);
+    color: white;
+    padding: 50px 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    font-size: 4vw;
+}
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+section.normal {
+    background-color: white;
+
+}
+
+section.imagem {
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+#ig01 {
+    background-image: url(imagens/pomegranate001.jpg);
+}
+
+#ig02 {
+    background-image: url(imagens/pomegranate002.jpg);
+}
