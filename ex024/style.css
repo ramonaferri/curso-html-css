@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-color: #d9d9d9;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 500px;
+}
+
+.phone{
+    height: 732px;
+    width: 100%;
+    background-image:url(imagens/Shadow.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+}
+
+.phone-complete{
+    height: 732px;
+    padding-top: 100px;
+}
+
+.iframe-phone{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.redes-sociais{
+    right: 0px;
+    display: block;
+}
+
+.botao{
+    right: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: #e6e6e6;
+    position: absolute;
+    border-radius: 50%;
+    overflow:hidden;
+    margin: 30px;
+    box-shadow: 7px 7px 19px #0000002f;
+    display: inline-block;
+}
+
+.botao:hover{
+    background-color: #afafaf;
+    transition: .3s linear;
+    width: 70px;
+    height: 70px;
+    margin: 25px;
+    cursor: pointer;
+}
