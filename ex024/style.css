@@ -1,17 +1,25 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
 
 body{
     background-color: #d9d9d9;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 500px;
+}
+
+main{
+    height: 100vh;
+    position: relative;
 }
 
 .phone{
-    height: 732px;
-    width: 100%;
     background-image:url(imagens/Shadow.png);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -25,8 +33,8 @@ body{
 }
 
 .phone-complete{
-    height: 732px;
     padding-top: 100px;
+    position: absolute;
 }
 
 .iframe-phone{
@@ -39,6 +47,7 @@ body{
 .redes-sociais{
     right: 0px;
     display: block;
+    position: absolute;
 }
 
 .botao{
@@ -52,7 +61,7 @@ body{
     overflow:hidden;
     margin: 30px;
     box-shadow: 7px 7px 19px #0000002f;
-    display: inline-block;
+    display: block;
 }
 
 .botao:hover{
@@ -62,4 +71,22 @@ body{
     height: 70px;
     margin: 25px;
     cursor: pointer;
+}
+
+.botao > svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: #afafaf;
+}
+
+.botao:hover > svg {
+    fill: white;
+    transition: .3s linear;
+}
+
+iframe#tela {
+    position: relative;
+
 }
