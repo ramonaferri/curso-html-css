@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    main{
+        height: 450px
+    }
+
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+        position: relative;
+     }
+    
+    div#imagem > img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 105%;
+    }
+
+
+    div#info-login{
+        float: right;
+        width: calc(70% - 50px);    
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    main{
+        width: 900px;
+        height: 450px
+    }
+
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+        position: relative;
+     }
+    
+    div#imagem > img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 105%;
+    }
+
+
+    div#info-login{
+        float: right;
+        width: calc(50% - 50px);    
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        width: 1100px;
+        height: 450px
+    }
+
+    div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+        position: relative;
+     }
+    
+    div#imagem > img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 105%;
+    }
+
+
+    div#info-login{
+        float: left;
+        width: calc(50% - 50px);    
+    }
+
+}
