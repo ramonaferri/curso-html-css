@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body {
@@ -27,10 +26,10 @@ main{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     display: block;
-    transition: width 0.3s, height .3s;
+    transform: translate(-50%, -50%);
+    transition: width .5s, height .5s;
     transition-timing-function: ease;
 }
 
@@ -99,9 +98,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover{
-    -webkit-transition: opacity 4s ease-in-out;
-    transition: opacity 4s ease-in-out;
     background-image: linear-gradient(to right, #84EEEB, #3AE4DF);
+    -webkit-transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out;
 }
 
 input#b_forget {
